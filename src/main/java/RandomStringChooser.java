@@ -9,7 +9,7 @@ public class RandomStringChooser
     }
   } 
   public String getNext(){
-    if(a.size > 0){
+    if(a.size() > 0){
       return a.remove(Math.random() * a.size());
     }
     return "NONE";
